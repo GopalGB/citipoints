@@ -1,0 +1,40 @@
+app = "citipoints-api"
+primary_region = "fra"
+
+[build]
+  dockerfile = "Dockerfile"
+
+[env]
+  LOG_LEVEL = "INFO"
+  USE_BIGQUERY = "false"
+  DATA_DIR = "/app/data"
+  DUCKDB_PATH = "/app/data/citipoints.duckdb"
+  CORS_ORIGINS = "https://citipoints.vercel.app,http://localhost:3000"
+
+[[mounts]]
+  source = "citipoints_data"
+  destination = "/app/data"
+
+[http_service]
+  internal_port = 8000
+  force_https = true
+  auto_stop_machines = true
+  auto_start_machines = true
+  min_machines_running = 0
+
+  [http_service.concurrency]
+    type = "requests"
+    hard_limit = 200
+    soft_limit = 150
+
+  [[http_service.checks]]
+    grace_period = "10s"
+    interval = "30s"
+    method = "GET"
+    timeout = "5s"
+    path = "/ready"
+
+[[vm]]
+  size = "shared-cpu-1x"
+  memory = "1gb"
+  cpus = 1

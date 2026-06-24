@@ -1,0 +1,20 @@
+# deps / build
+node_modules/
+.pnpm-store/
+.next/
+.turbo/
+dist/
+*.tsbuildinfo
+# python
+.venv/
+__pycache__/
+*.pyc
+# env / secrets — NEVER commit
+.env
+.env.*
+!.env.example
+# os / logs
+.DS_Store
+*.log
+.live/
+.always-live/

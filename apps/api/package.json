@@ -1,0 +1,16 @@
+{
+  "name": "api",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "uv run uvicorn citipoints_api.main:app --host 0.0.0.0 --port 8000 --reload",
+    "start": "uv run gunicorn citipoints_api.main:app -k uvicorn.workers.UvicornWorker -w 2 -b 0.0.0.0:8000",
+    "seed": "uv run python -m citipoints_api.data.seed",
+    "build": "uv sync --frozen",
+    "lint": "uv run ruff check src tests",
+    "format": "uv run ruff format src tests",
+    "typecheck": "uv run mypy src",
+    "test": "uv run pytest",
+    "clean": "rm -rf .venv .ruff_cache .mypy_cache .pytest_cache dist *.egg-info"
+  }
+}

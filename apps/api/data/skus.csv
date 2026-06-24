@@ -1,0 +1,221 @@
+sku_id,category,subcategory,brand,product_name,base_price
+SKU-1000,Fresh Food,Fruits & Vegetables,Al Ain Fresh,Al Ain Fresh Fruits #1,30.58
+SKU-1001,Fresh Food,Fruits & Vegetables,Al Ain Fresh,Al Ain Fresh Fruits #2,6.0
+SKU-1002,Fresh Food,Fruits & Vegetables,Al Ain Fresh,Al Ain Fresh Fruits #3,16.0
+SKU-1003,Fresh Food,Fruits & Vegetables,Al Ain Fresh,Al Ain Fresh Fruits #4,13.93
+SKU-1004,Fresh Food,Fruits & Vegetables,Barakat,Barakat Fruits #1,34.46
+SKU-1005,Fresh Food,Fruits & Vegetables,Barakat,Barakat Fruits #2,32.07
+SKU-1006,Fresh Food,Fruits & Vegetables,Barakat,Barakat Fruits #3,40.69
+SKU-1007,Fresh Food,Fruits & Vegetables,Barakat,Barakat Fruits #4,8.48
+SKU-1008,Fresh Food,Fruits & Vegetables,Local Farm,Local Farm Fruits #1,21.88
+SKU-1009,Fresh Food,Fruits & Vegetables,Local Farm,Local Farm Fruits #2,6.19
+SKU-1010,Fresh Food,Fruits & Vegetables,Local Farm,Local Farm Fruits #3,13.75
+SKU-1011,Fresh Food,Fruits & Vegetables,Local Farm,Local Farm Fruits #4,25.21
+SKU-1012,Fresh Food,Fruits & Vegetables,Desert Bloom,Desert Bloom Fruits #1,6.06
+SKU-1013,Fresh Food,Fruits & Vegetables,Desert Bloom,Desert Bloom Fruits #2,12.95
+SKU-1014,Fresh Food,Fruits & Vegetables,Desert Bloom,Desert Bloom Fruits #3,31.0
+SKU-1015,Fresh Food,Fruits & Vegetables,Desert Bloom,Desert Bloom Fruits #4,26.8
+SKU-1016,Fresh Food,Dairy & Eggs,Al Rawabi,Al Rawabi Dairy #1,10.05
+SKU-1017,Fresh Food,Dairy & Eggs,Al Rawabi,Al Rawabi Dairy #2,21.86
+SKU-1018,Fresh Food,Dairy & Eggs,Al Rawabi,Al Rawabi Dairy #3,28.9
+SKU-1019,Fresh Food,Dairy & Eggs,Al Rawabi,Al Rawabi Dairy #4,3.21
+SKU-1020,Fresh Food,Dairy & Eggs,Al Rawabi,Al Rawabi Dairy #5,28.79
+SKU-1021,Fresh Food,Dairy & Eggs,Al Ain Dairy,Al Ain Dairy Dairy #1,25.34
+SKU-1022,Fresh Food,Dairy & Eggs,Al Ain Dairy,Al Ain Dairy Dairy #2,13.89
+SKU-1023,Fresh Food,Dairy & Eggs,Al Ain Dairy,Al Ain Dairy Dairy #3,7.98
+SKU-1024,Fresh Food,Dairy & Eggs,Al Ain Dairy,Al Ain Dairy Dairy #4,33.63
+SKU-1025,Fresh Food,Dairy & Eggs,Al Ain Dairy,Al Ain Dairy Dairy #5,13.77
+SKU-1026,Fresh Food,Dairy & Eggs,Almarai,Almarai Dairy #1,5.97
+SKU-1027,Fresh Food,Dairy & Eggs,Almarai,Almarai Dairy #2,6.09
+SKU-1028,Fresh Food,Dairy & Eggs,Almarai,Almarai Dairy #3,30.12
+SKU-1029,Fresh Food,Dairy & Eggs,Almarai,Almarai Dairy #4,22.32
+SKU-1030,Fresh Food,Dairy & Eggs,Almarai,Almarai Dairy #5,28.83
+SKU-1031,Fresh Food,Dairy & Eggs,Nada,Nada Dairy #1,26.35
+SKU-1032,Fresh Food,Dairy & Eggs,Nada,Nada Dairy #2,20.16
+SKU-1033,Fresh Food,Dairy & Eggs,Nada,Nada Dairy #3,34.14
+SKU-1034,Fresh Food,Dairy & Eggs,Nada,Nada Dairy #4,15.11
+SKU-1035,Fresh Food,Dairy & Eggs,Nada,Nada Dairy #5,20.67
+SKU-1036,Fresh Food,Meat & Poultry,Al Kabeer,Al Kabeer Meat #1,102.09
+SKU-1037,Fresh Food,Meat & Poultry,Al Kabeer,Al Kabeer Meat #2,79.94
+SKU-1038,Fresh Food,Meat & Poultry,Al Kabeer,Al Kabeer Meat #3,105.48
+SKU-1039,Fresh Food,Meat & Poultry,Al Kabeer,Al Kabeer Meat #4,75.62
+SKU-1040,Fresh Food,Meat & Poultry,Sadia,Sadia Meat #1,88.98
+SKU-1041,Fresh Food,Meat & Poultry,Sadia,Sadia Meat #2,19.81
+SKU-1042,Fresh Food,Meat & Poultry,Sadia,Sadia Meat #3,38.93
+SKU-1043,Fresh Food,Meat & Poultry,Sadia,Sadia Meat #4,45.39
+SKU-1044,Fresh Food,Meat & Poultry,Americana,Americana Meat #1,23.38
+SKU-1045,Fresh Food,Meat & Poultry,Americana,Americana Meat #2,39.44
+SKU-1046,Fresh Food,Meat & Poultry,Americana,Americana Meat #3,25.61
+SKU-1047,Fresh Food,Meat & Poultry,Americana,Americana Meat #4,44.19
+SKU-1048,Fresh Food,Meat & Poultry,Farm Fresh,Farm Fresh Meat #1,81.75
+SKU-1049,Fresh Food,Meat & Poultry,Farm Fresh,Farm Fresh Meat #2,53.31
+SKU-1050,Fresh Food,Meat & Poultry,Farm Fresh,Farm Fresh Meat #3,53.87
+SKU-1051,Fresh Food,Meat & Poultry,Farm Fresh,Farm Fresh Meat #4,37.0
+SKU-1052,Fresh Food,Bakery,Modern Bakery,Modern Bakery Bakery #1,8.87
+SKU-1053,Fresh Food,Bakery,Modern Bakery,Modern Bakery Bakery #2,23.61
+SKU-1054,Fresh Food,Bakery,Modern Bakery,Modern Bakery Bakery #3,17.26
+SKU-1055,Fresh Food,Bakery,Al Jadeed,Al Jadeed Bakery #1,16.4
+SKU-1056,Fresh Food,Bakery,Al Jadeed,Al Jadeed Bakery #2,6.77
+SKU-1057,Fresh Food,Bakery,Al Jadeed,Al Jadeed Bakery #3,19.04
+SKU-1058,Fresh Food,Bakery,Sunbulah,Sunbulah Bakery #1,6.59
+SKU-1059,Fresh Food,Bakery,Sunbulah,Sunbulah Bakery #2,11.35
+SKU-1060,Fresh Food,Bakery,Sunbulah,Sunbulah Bakery #3,24.77
+SKU-1061,Fresh Food,Bakery,Sara Lee,Sara Lee Bakery #1,17.08
+SKU-1062,Fresh Food,Bakery,Sara Lee,Sara Lee Bakery #2,15.25
+SKU-1063,Fresh Food,Bakery,Sara Lee,Sara Lee Bakery #3,18.06
+SKU-1064,Beverages,Water & Juices,Masafi,Masafi Water #1,17.01
+SKU-1065,Beverages,Water & Juices,Masafi,Masafi Water #2,15.74
+SKU-1066,Beverages,Water & Juices,Masafi,Masafi Water #3,5.35
+SKU-1067,Beverages,Water & Juices,Masafi,Masafi Water #4,1.61
+SKU-1068,Beverages,Water & Juices,Al Ain Water,Al Ain Water Water #1,6.99
+SKU-1069,Beverages,Water & Juices,Al Ain Water,Al Ain Water Water #2,6.09
+SKU-1070,Beverages,Water & Juices,Al Ain Water,Al Ain Water Water #3,5.01
+SKU-1071,Beverages,Water & Juices,Al Ain Water,Al Ain Water Water #4,18.92
+SKU-1072,Beverages,Water & Juices,Mai Dubai,Mai Dubai Water #1,17.65
+SKU-1073,Beverages,Water & Juices,Mai Dubai,Mai Dubai Water #2,6.98
+SKU-1074,Beverages,Water & Juices,Mai Dubai,Mai Dubai Water #3,13.45
+SKU-1075,Beverages,Water & Juices,Mai Dubai,Mai Dubai Water #4,8.52
+SKU-1076,Beverages,Water & Juices,Oasis,Oasis Water #1,18.38
+SKU-1077,Beverages,Water & Juices,Oasis,Oasis Water #2,9.72
+SKU-1078,Beverages,Water & Juices,Oasis,Oasis Water #3,6.03
+SKU-1079,Beverages,Water & Juices,Oasis,Oasis Water #4,5.69
+SKU-1080,Beverages,Soft Drinks,Coca-Cola,Coca-Cola Soft Drinks #1,9.3
+SKU-1081,Beverages,Soft Drinks,Coca-Cola,Coca-Cola Soft Drinks #2,5.42
+SKU-1082,Beverages,Soft Drinks,Coca-Cola,Coca-Cola Soft Drinks #3,9.6
+SKU-1083,Beverages,Soft Drinks,Coca-Cola,Coca-Cola Soft Drinks #4,13.67
+SKU-1084,Beverages,Soft Drinks,Pepsi,Pepsi Soft Drinks #1,7.19
+SKU-1085,Beverages,Soft Drinks,Pepsi,Pepsi Soft Drinks #2,4.85
+SKU-1086,Beverages,Soft Drinks,Pepsi,Pepsi Soft Drinks #3,14.97
+SKU-1087,Beverages,Soft Drinks,Pepsi,Pepsi Soft Drinks #4,8.62
+SKU-1088,Beverages,Soft Drinks,Fanta,Fanta Soft Drinks #1,3.18
+SKU-1089,Beverages,Soft Drinks,Fanta,Fanta Soft Drinks #2,2.61
+SKU-1090,Beverages,Soft Drinks,Fanta,Fanta Soft Drinks #3,3.43
+SKU-1091,Beverages,Soft Drinks,Fanta,Fanta Soft Drinks #4,10.16
+SKU-1092,Beverages,Soft Drinks,Sprite,Sprite Soft Drinks #1,12.3
+SKU-1093,Beverages,Soft Drinks,Sprite,Sprite Soft Drinks #2,7.49
+SKU-1094,Beverages,Soft Drinks,Sprite,Sprite Soft Drinks #3,2.83
+SKU-1095,Beverages,Soft Drinks,Sprite,Sprite Soft Drinks #4,6.96
+SKU-1096,Beverages,Tea & Coffee,Lipton,Lipton Tea #1,54.82
+SKU-1097,Beverages,Tea & Coffee,Lipton,Lipton Tea #2,32.87
+SKU-1098,Beverages,Tea & Coffee,Lipton,Lipton Tea #3,53.64
+SKU-1099,Beverages,Tea & Coffee,Nescafe,Nescafe Tea #1,48.46
+SKU-1100,Beverages,Tea & Coffee,Nescafe,Nescafe Tea #2,8.54
+SKU-1101,Beverages,Tea & Coffee,Nescafe,Nescafe Tea #3,41.87
+SKU-1102,Beverages,Tea & Coffee,Dilmah,Dilmah Tea #1,40.04
+SKU-1103,Beverages,Tea & Coffee,Dilmah,Dilmah Tea #2,33.24
+SKU-1104,Beverages,Tea & Coffee,Dilmah,Dilmah Tea #3,20.54
+SKU-1105,Beverages,Tea & Coffee,Brooke Bond,Brooke Bond Tea #1,38.13
+SKU-1106,Beverages,Tea & Coffee,Brooke Bond,Brooke Bond Tea #2,13.24
+SKU-1107,Beverages,Tea & Coffee,Brooke Bond,Brooke Bond Tea #3,28.43
+SKU-1108,Beverages,Energy Drinks,Red Bull,Red Bull Energy Drinks #1,11.81
+SKU-1109,Beverages,Energy Drinks,Red Bull,Red Bull Energy Drinks #2,19.31
+SKU-1110,Beverages,Energy Drinks,Red Bull,Red Bull Energy Drinks #3,18.14
+SKU-1111,Beverages,Energy Drinks,Monster,Monster Energy Drinks #1,8.95
+SKU-1112,Beverages,Energy Drinks,Monster,Monster Energy Drinks #2,12.51
+SKU-1113,Beverages,Energy Drinks,Monster,Monster Energy Drinks #3,7.68
+SKU-1114,Beverages,Energy Drinks,Power Horse,Power Horse Energy Drinks #1,18.69
+SKU-1115,Beverages,Energy Drinks,Power Horse,Power Horse Energy Drinks #2,18.06
+SKU-1116,Beverages,Energy Drinks,Power Horse,Power Horse Energy Drinks #3,9.48
+SKU-1117,Beverages,Energy Drinks,Sting,Sting Energy Drinks #1,14.58
+SKU-1118,Beverages,Energy Drinks,Sting,Sting Energy Drinks #2,14.13
+SKU-1119,Beverages,Energy Drinks,Sting,Sting Energy Drinks #3,7.29
+SKU-1120,Household,Cleaning,Dettol,Dettol Cleaning #1,31.69
+SKU-1121,Household,Cleaning,Dettol,Dettol Cleaning #2,23.88
+SKU-1122,Household,Cleaning,Dettol,Dettol Cleaning #3,32.25
+SKU-1123,Household,Cleaning,Clorox,Clorox Cleaning #1,23.56
+SKU-1124,Household,Cleaning,Clorox,Clorox Cleaning #2,5.02
+SKU-1125,Household,Cleaning,Clorox,Clorox Cleaning #3,16.35
+SKU-1126,Household,Cleaning,Mr. Clean,Mr. Clean Cleaning #1,5.68
+SKU-1127,Household,Cleaning,Mr. Clean,Mr. Clean Cleaning #2,37.52
+SKU-1128,Household,Cleaning,Mr. Clean,Mr. Clean Cleaning #3,35.76
+SKU-1129,Household,Cleaning,Harpic,Harpic Cleaning #1,34.11
+SKU-1130,Household,Cleaning,Harpic,Harpic Cleaning #2,15.76
+SKU-1131,Household,Cleaning,Harpic,Harpic Cleaning #3,7.03
+SKU-1132,Household,Paper Products,Fine,Fine Paper Products #1,31.34
+SKU-1133,Household,Paper Products,Fine,Fine Paper Products #2,33.41
+SKU-1134,Household,Paper Products,Fine,Fine Paper Products #3,7.57
+SKU-1135,Household,Paper Products,Kleenex,Kleenex Paper Products #1,19.58
+SKU-1136,Household,Paper Products,Kleenex,Kleenex Paper Products #2,7.08
+SKU-1137,Household,Paper Products,Kleenex,Kleenex Paper Products #3,27.82
+SKU-1138,Household,Paper Products,Familia,Familia Paper Products #1,27.98
+SKU-1139,Household,Paper Products,Familia,Familia Paper Products #2,8.85
+SKU-1140,Household,Paper Products,Familia,Familia Paper Products #3,19.26
+SKU-1141,Household,Paper Products,Lulu White,Lulu White Paper Products #1,21.49
+SKU-1142,Household,Paper Products,Lulu White,Lulu White Paper Products #2,12.95
+SKU-1143,Household,Paper Products,Lulu White,Lulu White Paper Products #3,31.17
+SKU-1144,Household,Kitchen,Glad,Glad Kitchen #1,15.58
+SKU-1145,Household,Kitchen,Glad,Glad Kitchen #2,10.29
+SKU-1146,Household,Kitchen,Glad,Glad Kitchen #3,18.48
+SKU-1147,Household,Kitchen,Bayroute,Bayroute Kitchen #1,23.25
+SKU-1148,Household,Kitchen,Bayroute,Bayroute Kitchen #2,10.03
+SKU-1149,Household,Kitchen,Bayroute,Bayroute Kitchen #3,12.79
+SKU-1150,Household,Kitchen,Home Pro,Home Pro Kitchen #1,29.88
+SKU-1151,Household,Kitchen,Home Pro,Home Pro Kitchen #2,21.25
+SKU-1152,Household,Kitchen,Home Pro,Home Pro Kitchen #3,15.95
+SKU-1153,Household,Kitchen,Al Bayader,Al Bayader Kitchen #1,17.94
+SKU-1154,Household,Kitchen,Al Bayader,Al Bayader Kitchen #2,8.03
+SKU-1155,Household,Kitchen,Al Bayader,Al Bayader Kitchen #3,10.62
+SKU-1156,Household,Laundry,Tide,Tide Laundry #1,26.9
+SKU-1157,Household,Laundry,Tide,Tide Laundry #2,39.42
+SKU-1158,Household,Laundry,Tide,Tide Laundry #3,21.51
+SKU-1159,Household,Laundry,OMO,OMO Laundry #1,21.01
+SKU-1160,Household,Laundry,OMO,OMO Laundry #2,13.55
+SKU-1161,Household,Laundry,OMO,OMO Laundry #3,41.56
+SKU-1162,Household,Laundry,Persil,Persil Laundry #1,21.45
+SKU-1163,Household,Laundry,Persil,Persil Laundry #2,55.27
+SKU-1164,Household,Laundry,Persil,Persil Laundry #3,52.98
+SKU-1165,Household,Laundry,Ariel,Ariel Laundry #1,13.54
+SKU-1166,Household,Laundry,Ariel,Ariel Laundry #2,21.9
+SKU-1167,Household,Laundry,Ariel,Ariel Laundry #3,43.45
+SKU-1168,Personal Care,Skin Care,Nivea,Nivea Skin Care #1,25.0
+SKU-1169,Personal Care,Skin Care,Nivea,Nivea Skin Care #2,19.26
+SKU-1170,Personal Care,Skin Care,Nivea,Nivea Skin Care #3,75.49
+SKU-1171,Personal Care,Skin Care,Nivea,Nivea Skin Care #4,49.97
+SKU-1172,Personal Care,Skin Care,Vaseline,Vaseline Skin Care #1,43.09
+SKU-1173,Personal Care,Skin Care,Vaseline,Vaseline Skin Care #2,64.92
+SKU-1174,Personal Care,Skin Care,Vaseline,Vaseline Skin Care #3,66.52
+SKU-1175,Personal Care,Skin Care,Vaseline,Vaseline Skin Care #4,23.33
+SKU-1176,Personal Care,Skin Care,Dove,Dove Skin Care #1,16.79
+SKU-1177,Personal Care,Skin Care,Dove,Dove Skin Care #2,40.17
+SKU-1178,Personal Care,Skin Care,Dove,Dove Skin Care #3,39.65
+SKU-1179,Personal Care,Skin Care,Dove,Dove Skin Care #4,42.69
+SKU-1180,Personal Care,Skin Care,Neutrogena,Neutrogena Skin Care #1,61.04
+SKU-1181,Personal Care,Skin Care,Neutrogena,Neutrogena Skin Care #2,57.14
+SKU-1182,Personal Care,Skin Care,Neutrogena,Neutrogena Skin Care #3,78.89
+SKU-1183,Personal Care,Skin Care,Neutrogena,Neutrogena Skin Care #4,16.89
+SKU-1184,Personal Care,Hair Care,Pantene,Pantene Hair Care #1,28.12
+SKU-1185,Personal Care,Hair Care,Pantene,Pantene Hair Care #2,25.27
+SKU-1186,Personal Care,Hair Care,Pantene,Pantene Hair Care #3,48.78
+SKU-1187,Personal Care,Hair Care,Head & Shoulders,Head & Shoulders Hair Care #1,21.19
+SKU-1188,Personal Care,Hair Care,Head & Shoulders,Head & Shoulders Hair Care #2,18.56
+SKU-1189,Personal Care,Hair Care,Head & Shoulders,Head & Shoulders Hair Care #3,30.19
+SKU-1190,Personal Care,Hair Care,TRESemme,TRESemme Hair Care #1,28.98
+SKU-1191,Personal Care,Hair Care,TRESemme,TRESemme Hair Care #2,22.53
+SKU-1192,Personal Care,Hair Care,TRESemme,TRESemme Hair Care #3,21.24
+SKU-1193,Personal Care,Hair Care,Sunsilk,Sunsilk Hair Care #1,51.55
+SKU-1194,Personal Care,Hair Care,Sunsilk,Sunsilk Hair Care #2,29.94
+SKU-1195,Personal Care,Hair Care,Sunsilk,Sunsilk Hair Care #3,48.76
+SKU-1196,Personal Care,Oral Care,Colgate,Colgate Oral Care #1,18.76
+SKU-1197,Personal Care,Oral Care,Colgate,Colgate Oral Care #2,6.26
+SKU-1198,Personal Care,Oral Care,Colgate,Colgate Oral Care #3,29.98
+SKU-1199,Personal Care,Oral Care,Oral-B,Oral-B Oral Care #1,25.9
+SKU-1200,Personal Care,Oral Care,Oral-B,Oral-B Oral Care #2,29.22
+SKU-1201,Personal Care,Oral Care,Oral-B,Oral-B Oral Care #3,28.16
+SKU-1202,Personal Care,Oral Care,Sensodyne,Sensodyne Oral Care #1,26.22
+SKU-1203,Personal Care,Oral Care,Sensodyne,Sensodyne Oral Care #2,9.16
+SKU-1204,Personal Care,Oral Care,Sensodyne,Sensodyne Oral Care #3,17.14
+SKU-1205,Personal Care,Oral Care,Closeup,Closeup Oral Care #1,10.34
+SKU-1206,Personal Care,Oral Care,Closeup,Closeup Oral Care #2,15.03
+SKU-1207,Personal Care,Oral Care,Closeup,Closeup Oral Care #3,6.47
+SKU-1208,Personal Care,Body Care,Lux,Lux Body Care #1,16.37
+SKU-1209,Personal Care,Body Care,Lux,Lux Body Care #2,34.56
+SKU-1210,Personal Care,Body Care,Lux,Lux Body Care #3,12.96
+SKU-1211,Personal Care,Body Care,Dove,Dove Body Care #1,28.52
+SKU-1212,Personal Care,Body Care,Dove,Dove Body Care #2,18.65
+SKU-1213,Personal Care,Body Care,Dove,Dove Body Care #3,17.69
+SKU-1214,Personal Care,Body Care,Dettol,Dettol Body Care #1,33.72
+SKU-1215,Personal Care,Body Care,Dettol,Dettol Body Care #2,34.86
+SKU-1216,Personal Care,Body Care,Dettol,Dettol Body Care #3,21.67
+SKU-1217,Personal Care,Body Care,Palmolive,Palmolive Body Care #1,26.55
+SKU-1218,Personal Care,Body Care,Palmolive,Palmolive Body Care #2,9.64
+SKU-1219,Personal Care,Body Care,Palmolive,Palmolive Body Care #3,13.9
