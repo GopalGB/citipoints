@@ -9,11 +9,22 @@
 
 import { Sparkles, X } from 'lucide-react';
 import { usePathname, useRouter, useSearchParams } from 'next/navigation';
-import { useCallback, useMemo } from 'react';
+import { Suspense, useCallback, useMemo } from 'react';
 
 import { filtersToChips, hasAnyAiFilter, parseFiltersFromSearch } from './intent-parser';
 
 export function AiFilterStrip() {
+  // useSearchParams() forces this subtree to client-render; a Suspense
+  // boundary keeps `next build` from bailing when it prerenders the strip
+  // (e.g. into the global /_not-found page).
+  return (
+    <Suspense fallback={null}>
+      <AiFilterStripInner />
+    </Suspense>
+  );
+}
+
+function AiFilterStripInner() {
   const pathname = usePathname();
   const router = useRouter();
   const searchParams = useSearchParams();

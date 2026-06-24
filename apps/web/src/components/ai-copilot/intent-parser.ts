@@ -55,19 +55,19 @@ export function parseIntent(raw: string): AiActionPlan {
   const filters: AiFilters = {};
 
   const tierMatch = TIER_RE.exec(lower);
-  if (tierMatch) {
+  if (tierMatch?.[1]) {
     const t = tierMatch[1].toLowerCase();
     filters.tier = (t.charAt(0).toUpperCase() + t.slice(1)) as Tier;
   }
 
   const balGt = BALANCE_RE.exec(lower);
-  if (balGt) filters.min_balance = parseNumberWithK(balGt[1], balGt[2]);
+  if (balGt?.[1]) filters.min_balance = parseNumberWithK(balGt[1], balGt[2]);
 
   const balLt = BALANCE_LT_RE.exec(lower);
-  if (balLt) filters.max_balance = parseNumberWithK(balLt[1], balLt[2]);
+  if (balLt?.[1]) filters.max_balance = parseNumberWithK(balLt[1], balLt[2]);
 
   const inactive = INACTIVE_RE.exec(lower);
-  if (inactive) {
+  if (inactive?.[1] && inactive[2]) {
     const n = Number(inactive[1]);
     const unit = inactive[2].toLowerCase();
     const mult = unit.startsWith('week') ? 7 : unit.startsWith('month') ? 30 : 1;
@@ -75,11 +75,11 @@ export function parseIntent(raw: string): AiActionPlan {
   }
 
   const clv = CLV_GT_RE.exec(lower);
-  if (clv) filters.min_clv = parseNumberWithK(clv[1], clv[2]);
+  if (clv?.[1]) filters.min_clv = parseNumberWithK(clv[1], clv[2]);
   else if (HIGH_CLV_RE.test(lower)) filters.min_clv = 5000;
 
   const action = INTENT_ACTION_RE.exec(lower);
-  if (action) {
+  if (action?.[3]) {
     const kind = action[3].toLowerCase();
     filters.action_hint = kind;
   }

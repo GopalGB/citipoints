@@ -899,7 +899,7 @@ function synthesizeChart(question: string, answer: string): ChartSpec {
   const re = /^([A-Za-z][A-Za-z0-9 &,+/\-_']{1,40}?)[\s]*[:—|\-·][\s]*(?:AED\s*|\$\s*)?([\d,]+(?:\.\d+)?)\s*(?:%|k|K|m|M)?$/;
   for (const l of lines) {
     const m = re.exec(l);
-    if (m) {
+    if (m?.[1] && m[2]) {
       const value = Number(m[2].replace(/,/g, ''));
       if (!Number.isNaN(value)) rows.push({ name: m[1].trim().slice(0, 24), value });
     }

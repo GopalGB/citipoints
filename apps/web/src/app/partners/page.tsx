@@ -133,9 +133,10 @@ function PartnersContent() {
   ];
 
   // Second strip — concentration & health-distribution KPIs
+  const topPartner = partners[0];
   const topShare =
-    partners.length > 0
-      ? (partners[0].txns_window /
+    topPartner
+      ? (topPartner.txns_window /
           (partners.reduce((s, p) => s + p.txns_window, 0) || 1)) *
         100
       : 0;
@@ -154,7 +155,7 @@ function PartnersContent() {
   const tilesRow2: KpiTileT[] = [
     {
       id: 'top_share',
-      label: partners.length > 0 ? `${partners[0].name} Share` : 'Top Partner',
+      label: topPartner ? `${topPartner.name} Share` : 'Top Partner',
       value: topShare,
       value_display: `${topShare.toFixed(1)}%`,
       delta_pct: null,

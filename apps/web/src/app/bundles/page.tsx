@@ -54,7 +54,7 @@ function BundlesContent() {
     rules.length > 0 ? rules.reduce((s, r) => s + r.lift, 0) / rules.length : 0;
   const avgConf =
     rules.length > 0 ? rules.reduce((s, r) => s + r.confidence, 0) / rules.length : 0;
-  const topLift = rules.length > 0 ? rules[0].lift : 0;
+  const topLift = rules[0]?.lift ?? 0;
 
   const tiles: KpiTileT[] = [
     {
@@ -101,7 +101,7 @@ function BundlesContent() {
 
   // Top 10 affinity bars by lift
   const top10 = rules.slice(0, 10);
-  const maxLift = top10.length > 0 ? top10[0].lift : 1;
+  const maxLift = top10[0]?.lift ?? 1;
 
   // Second strip — strong-rule slicing & SKU coverage
   const highLiftCount = rules.filter((r) => r.lift >= 3).length;
@@ -109,7 +109,7 @@ function BundlesContent() {
   const sortedSupports = [...rules].map((r) => r.support).sort((a, b) => a - b);
   const medianSupport =
     sortedSupports.length > 0
-      ? sortedSupports[Math.floor(sortedSupports.length / 2)]
+      ? sortedSupports[Math.floor(sortedSupports.length / 2)] ?? 0
       : 0;
   const distinctSkus = new Set<string>();
   for (const r of rules) {

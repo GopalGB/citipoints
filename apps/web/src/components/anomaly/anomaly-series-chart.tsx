@@ -408,7 +408,7 @@ interface TooltipPayload {
 
 function CustomTooltip({ active, payload }: TooltipPayload) {
   if (!active || !payload || payload.length === 0) return null;
-  const row = payload[0].payload;
+  const row = payload[0]!.payload;
   const deltaPct = row.expected
     ? (row.residual / row.expected) * 100
     : 0;

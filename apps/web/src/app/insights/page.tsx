@@ -110,7 +110,7 @@ interface TaggedInsight extends Insight {
 export default function InsightsPage() {
   const { timeWindow, setWindow, filters, anchor } = useWindowFilters(
     'nexus:window:insights',
-    'last-30-days',
+    '30d',
   );
 
   const queryClient = useQueryClient();
@@ -165,7 +165,7 @@ export default function InsightsPage() {
     queries.forEach((q, idx) => {
       const src = sources[idx];
       const bundle = q.data as InsightBundle | undefined;
-      if (!bundle) return;
+      if (!src || !bundle) return;
       for (const i of bundle.insights) {
         out.push({
           ...i,

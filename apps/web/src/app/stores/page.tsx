@@ -66,7 +66,8 @@ function StoresContent() {
       ? stores.reduce((s, st) => s + st.avg_basket, 0) / stores.length
       : 0;
 
-  const topShare = stores.length > 0 ? (stores[0].revenue / totalRev) * 100 : 0;
+  const topStore = stores[0];
+  const topShare = topStore ? (topStore.revenue / totalRev) * 100 : 0;
 
   const allTiles = kpiQ.data?.tiles ?? [];
   const revenueTile = allTiles.find((t) => t.id === 'revenue');
@@ -85,7 +86,7 @@ function StoresContent() {
 
   const concentrationTile: KpiTileT = {
     id: 'top_share',
-    label: stores.length > 0 ? `${stores[0].store} Share` : 'Top Store',
+    label: topStore ? `${topStore.store} Share` : 'Top Store',
     value: topShare,
     value_display: `${topShare.toFixed(1)}%`,
     delta_pct: null,
@@ -108,7 +109,7 @@ function StoresContent() {
   const sortedBaskets = [...stores].map((s) => s.avg_basket).sort((a, b) => a - b);
   const medianBasket =
     sortedBaskets.length > 0
-      ? sortedBaskets[Math.floor(sortedBaskets.length / 2)]
+      ? sortedBaskets[Math.floor(sortedBaskets.length / 2)] ?? 0
       : 0;
   const avgTxnsPerStore = stores.length > 0 ? totalTxns / stores.length : 0;
   const premiumBasketThreshold = medianBasket * 1.25;

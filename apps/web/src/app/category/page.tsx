@@ -91,10 +91,11 @@ function CategoryContent() {
   const basketTile = allTiles.find((t) => t.id === 'avg_basket');
 
   // Synthetic Category Penetration tile (top category share)
-  const topCatShare = mix.length > 0 ? (mix[0].revenue / totalRev) * 100 : 0;
+  const topCat = mix[0];
+  const topCatShare = topCat ? (topCat.revenue / totalRev) * 100 : 0;
   const topCatTile: KpiTileT = {
     id: 'top_cat_share',
-    label: mix.length > 0 ? `${mix[0].category} Share` : 'Top Category',
+    label: topCat ? `${topCat.category} Share` : 'Top Category',
     value: topCatShare,
     value_display: `${topCatShare.toFixed(1)}%`,
     delta_pct: null,
@@ -109,8 +110,8 @@ function CategoryContent() {
   const totalProductRev = products.reduce((s, p) => s + p.revenue, 0) || 1;
   const totalProductUnits = products.reduce((s, p) => s + p.units, 0) || 1;
   const avgPrice = totalProductUnits > 0 ? totalProductRev / totalProductUnits : 0;
-  const topBrandShare =
-    topBrands.length > 0 ? (topBrands[0].revenue / totalProductRev) * 100 : 0;
+  const topBrand = topBrands[0];
+  const topBrandShare = topBrand ? (topBrand.revenue / totalProductRev) * 100 : 0;
   const distinctBrands = brandMap.size;
   const distinctSkus = products.length;
   const premiumThreshold = avgPrice * 1.5;
@@ -122,7 +123,7 @@ function CategoryContent() {
   const tilesRow2: KpiTileT[] = [
     {
       id: 'top_brand_share',
-      label: topBrands.length > 0 ? `${topBrands[0].brand} Share` : 'Top Brand',
+      label: topBrand ? `${topBrand.brand} Share` : 'Top Brand',
       value: topBrandShare,
       value_display: `${topBrandShare.toFixed(1)}%`,
       delta_pct: null,
@@ -316,11 +317,11 @@ function CategoryContent() {
                 </ResponsiveContainer>
               )}
             </div>
-            {topBrands.length > 0 ? (
+            {topBrand ? (
               <p className="mt-2 text-xs text-muted-foreground">
                 Top brand{' '}
-                <span className="font-semibold text-foreground">{topBrands[0].brand}</span>{' '}
-                holds {((topBrands[0].revenue / totalBrandRev) * 100).toFixed(1)}% of top-10
+                <span className="font-semibold text-foreground">{topBrand.brand}</span>{' '}
+                holds {((topBrand.revenue / totalBrandRev) * 100).toFixed(1)}% of top-10
                 brand revenue.
               </p>
             ) : null}
