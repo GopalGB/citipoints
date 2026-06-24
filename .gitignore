@@ -18,3 +18,9 @@ __pycache__/
 *.log
 .live/
 .always-live/
+
+# build/index artifacts
+*.duckdb
+codedb.snapshot
+.coverage
+htmlcov/
