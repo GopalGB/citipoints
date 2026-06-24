@@ -1,0 +1,15 @@
+# Render Blueprint — one-click backend deploy.
+# Connect this repo at render.com → New → Blueprint → pick GopalGB/citipoints.
+services:
+  - type: web
+    name: citipoints-api
+    runtime: docker
+    rootDir: apps/api
+    dockerfilePath: ./Dockerfile
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: CORS_ORIGINS
+        value: "*"        # public demo; tighten to the Vercel URL after first deploy
+      - key: USE_BIGQUERY
+        value: "false"     # synthetic DuckDB mode
